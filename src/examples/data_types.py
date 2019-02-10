@@ -66,6 +66,7 @@ def lists_examples():
     num_list = [4, 1, 9, 2, 4]
     num_list.sort()
     num_list.reverse()
+    print([1] * 3)
 
 
 def dictionary_examples():
