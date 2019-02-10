@@ -14,3 +14,8 @@ def name_method_example(name='Bobbert'):
     return name
 
 
+# *args puts it into a tuple. Args is not needed, a random word can be there.
+# **kwargs takes it in as a dictionary. my_func(fruit='apple', veggie='lettuce'). Can use both in the signature as well
+# myFunc(10, 20, 30, fruit='orange', food='eggs', animal='dog')
+def arbitrary_number_of_inputs_example(*args):
+    print(sum(args) * 0.05)
