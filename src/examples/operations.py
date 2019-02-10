@@ -1,7 +1,12 @@
+from random import shuffle
+from random import randint
+
+
 def operation_examples():
     comparison_examples()
     if_else_examples()
     loops_examples()
+    useful_operators()
 
 
 def comparison_examples():
@@ -52,3 +57,38 @@ def loops_examples():
         x += 1
     else:
         print('Finally 3')
+
+
+def useful_operators():
+    even_numbers = list(range(0, 10, 2))
+
+    for num in range(0, 10, 2):
+        print(num)
+
+    word = 'abcde'
+
+    # Enumerate returns info on the specific list element as a tuple
+    for index, letter in enumerate(word):
+        print(index, letter)
+
+    one_list = [1, 2, 3]
+    two_list = ['a', 'b', 'c']
+
+    # Zip creates tuples of however many lists there are
+    # Zip ignores extra, if one list is longer than another
+    for item in zip(one_list, two_list):
+        print(item)
+
+    # Check if something is in a list
+    print('x' in [1, 2, 3])
+    print(2 in [1, 2, 3])
+    print('mykey' in {'mykey': 345})
+
+    print(min(one_list))
+    print(max(one_list))
+
+    my_list = [1, 2, 54, 1, 2, 3]
+    shuffle(my_list)
+    random_number = randint(0, 100)
+
+    user_value = input('Enter a number here: ')
