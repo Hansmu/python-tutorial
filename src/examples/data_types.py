@@ -2,6 +2,10 @@ def data_types_examples():
     numbers_and_maths_examples()
     string_examples()
     lists_examples()
+    dictionary_examples()
+    tuple_examples()
+    sets_examples()
+    boolean_examples()
 
 
 def numbers_and_maths_examples():
@@ -70,3 +74,23 @@ def dictionary_examples():
     print(some_dict.items())
     print(some_dict.keys())
     print(some_dict.values())
+
+
+def tuple_examples():
+    some_tuple = (1, 2, 3, 'a', 'b', 'c', 'a')
+    print(some_tuple.count('a'))
+    print(some_tuple[-1])
+
+
+def sets_examples():
+    some_list = [1, 1, 2, 2, 3, 4, 3]
+    some_set = set()
+    some_set.add('abc')
+    some_set.add('abc')
+    print(set(some_list))
+
+
+def boolean_examples():
+    some_bool = False
+    placeholder = None
+    print(placeholder, some_bool, 1 > 2, 2 < 1)
