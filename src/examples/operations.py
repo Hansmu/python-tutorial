@@ -92,3 +92,8 @@ def useful_operators():
     random_number = randint(0, 100)
 
     user_value = input('Enter a number here: ')
+
+    list_to_ten_squared = [num ** 2 for num in range(0, 10)]
+    even_numbers_squared = [x ** 2 for x in range(0, 11) if x % 2 == 0]
+
+    print(list_to_ten_squared, even_numbers_squared)
