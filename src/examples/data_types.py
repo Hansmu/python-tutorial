@@ -64,3 +64,9 @@ def lists_examples():
     num_list.reverse()
 
 
+def dictionary_examples():
+    some_dict = {'key1': 'value1', 'key2': 100.2}
+    print(some_dict['key1'])
+    print(some_dict.items())
+    print(some_dict.keys())
+    print(some_dict.values())
