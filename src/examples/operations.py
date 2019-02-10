@@ -43,3 +43,12 @@ def loops_examples():
 
     for key, value in dictionary.items():
         print(key, value)
+
+    x = 0
+
+    while x < 3:
+        # break jumps out of the loop, continue goes to the top ignoring the rest of the body
+        print('Still not 3')
+        x += 1
+    else:
+        print('Finally 3')
