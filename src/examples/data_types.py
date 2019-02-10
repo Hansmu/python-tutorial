@@ -1,6 +1,7 @@
 def data_types_examples():
     numbers_and_maths_examples()
     string_examples()
+    lists_examples()
 
 
 def numbers_and_maths_examples():
@@ -46,3 +47,20 @@ def string_examples():
 
     # f-string
     print(f'Also interpolation for {100/77}')
+
+
+def lists_examples():
+    some_list = [1, 2, 3]
+    other_list = ['String', 100, 23.2]
+    print(len(other_list), other_list[0])
+    print('Some operations for reading indexes: ', other_list[1:])
+    print('Concat lists', some_list + other_list)
+    other_list.append('New element')
+    other_list.pop()
+    # Reverse indexing works as well
+    other_list.pop(0)
+    num_list = [4, 1, 9, 2, 4]
+    num_list.sort()
+    num_list.reverse()
+
+
