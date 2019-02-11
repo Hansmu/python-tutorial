@@ -1,3 +1,7 @@
+from .inheritance import inheritance_example
+from .special_methods import special_methods_example
+
+
 class Example:
     is_testing = True
 
@@ -12,3 +16,6 @@ class Example:
 def class_example():
     example = Example('Some example')
     example.bark()
+
+    inheritance_example()
+    special_methods_example()

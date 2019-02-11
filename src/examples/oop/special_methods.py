@@ -13,8 +13,9 @@ class Book:
         print('Book was removed')
 
 
-book = Book('Title', 200)
+def special_methods_example():
+    book = Book('Title', 200)
 
-print(book)
-print(len(book))
-del book
+    print(book)
+    print(len(book))
+    del book

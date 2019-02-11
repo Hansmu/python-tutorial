@@ -38,7 +38,8 @@ class AbstractExample:
         raise NotImplementedError('Subclass must implement this abstract method')
 
 
-animal_list = [Dog(), Cat()]
+def inheritance_example():
+    animal_list = [Dog(), Cat()]
 
-for pet in animal_list:
-    pet.speak()
+    for pet in animal_list:
+        pet.speak()

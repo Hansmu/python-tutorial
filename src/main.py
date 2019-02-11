@@ -1,3 +1,4 @@
+import module_import
 from examples import data_types
 from examples.oop import class_example
 
@@ -10,7 +11,6 @@ if __name__ == "__main__":
     data_types.data_types_examples()
     class_example.class_example()
 
-
     def reassign_global():
         global x
         x = 200
@@ -18,4 +18,6 @@ if __name__ == "__main__":
 
     reassign_global()
     print(x)
+
+    module_import.module_import_example()
 
