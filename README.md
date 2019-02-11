@@ -46,4 +46,4 @@ namedtuple like a quick small class `Dog = namedtuple('Dog', 'age breed name'); 
 
 pdb can be used for debugging from the command line `pdb.set_trace()` sets a break point
 
-
+StringIO can be used to treat a string as a file 
