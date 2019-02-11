@@ -33,3 +33,5 @@ from .some_module import some_class - same directory
 from ..some_package import some_function - one directory above
 
 from . import some_class - from init in the same folder
+
+pylint can be used to view the code quality.
