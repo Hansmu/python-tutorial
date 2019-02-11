@@ -1,4 +1,5 @@
 import module_import
+import module_rename as rename
 from examples import data_types
 from examples.oop import class_example
 
@@ -20,4 +21,5 @@ if __name__ == "__main__":
     print(x)
 
     module_import.module_import_example()
+    rename.module_rename_example()
 
