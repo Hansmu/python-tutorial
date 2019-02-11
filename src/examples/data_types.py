@@ -58,6 +58,14 @@ def string_examples():
     # f-string
     print(f'Also interpolation for {100/77}')
 
+    print('Occurrences', string.count('o'))
+    print('Index', string.find('o'))
+
+    print('Check if all are alpha numberic', '1234abcd'.isalnum())
+    print('Check if all are alphabetical', string.isalpha())
+    print(string.islower(), string.isspace(), string.istitle(), string.isupper(), string.endswith('o'))
+    print('Give separator, the area before it and after it', string.partition('e'))
+
 
 def lists_examples():
     some_list = [1, 2, 3]
