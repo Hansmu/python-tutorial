@@ -9,5 +9,6 @@ class Example:
         print('Woof ' + self.example_type)
 
 
-example = Example('Some example')
-example.bark()
+def class_example():
+    example = Example('Some example')
+    example.bark()

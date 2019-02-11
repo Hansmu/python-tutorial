@@ -16,3 +16,5 @@ E - enclosing function locals, from inner to outer
 G - global, names assigned at the top-level
 
 B - built-in Python
+
+Have to add \_\_init__.py into folders to mark them as packages so that imports could be done from them.

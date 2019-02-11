@@ -1,5 +1,11 @@
+from examples import data_types
+from examples.oop import class_example
+
 x = 50
-print('Hello world')
+
+
+data_types.data_types_examples()
+class_example.class_example()
 
 
 def reassign_global():
