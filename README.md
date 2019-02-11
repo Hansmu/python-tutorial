@@ -43,3 +43,7 @@ defaultdict can be used as a dictionary, that'll automatically initialize if a v
 OrderedDict maintains the order of the values inserted into the dictionary. Regular dictionary may mix up the order.
 
 namedtuple like a quick small class `Dog = namedtuple('Dog', 'age breed name'); Dog(age = 2, breed = 'Lab', name = 'Bob'); dog.age;`
+
+pdb can be used for debugging from the command line `pdb.set_trace()` sets a break point
+
+
