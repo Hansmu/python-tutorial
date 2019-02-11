@@ -23,6 +23,12 @@ def numbers_and_maths_examples():
     print(number, floating_point, adding, subtraction, multiplication, division, modulus, power_to)
     print(type(number), type(floating_point))
 
+    print('Hex: ', hex(number))
+    print('Binary: ', bin(number))
+    print('Another way for power: ', pow(2, 3))
+    print('Absolute: ', abs(-3))
+    print('Rounded: ', round(3.1412, 2))
+
 
 def string_examples():
     string = 'Hello'
