@@ -35,3 +35,11 @@ from ..some_package import some_function - one directory above
 from . import some_class - from init in the same folder
 
 pylint can be used to view the code quality.
+
+Counter object from the Collections module can be used to get statistics about items in a collection. E.g. how often they appeared.
+
+defaultdict can be used as a dictionary, that'll automatically initialize if a value does not exist in a dict.
+
+OrderedDict maintains the order of the values inserted into the dictionary. Regular dictionary may mix up the order.
+
+namedtuple like a quick small class `Dog = namedtuple('Dog', 'age breed name'); Dog(age = 2, breed = 'Lab', name = 'Bob'); dog.age;`
