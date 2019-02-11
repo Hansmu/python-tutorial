@@ -7,6 +7,7 @@ def new_decorator(original_func):
     return wrap_func
 
 
+#  Same as new_decorator(func_needs_decorator)
 @new_decorator
 def func_needs_decorator():
     print('Decorate me')
