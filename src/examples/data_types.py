@@ -104,6 +104,24 @@ def sets_examples():
     some_set.add('abc')
     print(set(some_list))
 
+    set_copy = some_set.copy()
+
+    another_set = {1, 2, 3}
+
+    # Using the _update method updates the original set, same for intersection
+    print('Get set difference', set_copy.difference(some_set))
+    # Get rid of element
+    set_copy.discard(3)
+
+    also_set = {1, 2}
+
+    print('Get sets intersection', set_copy.intersection(also_set))
+
+    # isdisjoint() method checks for the inverse of intersection
+    # issubset() checks subset, also issuperset() which is the inverse
+    # symmetric_difference() returns elements that are exactly in one of the sets
+    # union() returns the union of both sets
+
 
 def boolean_examples():
     some_bool = False
