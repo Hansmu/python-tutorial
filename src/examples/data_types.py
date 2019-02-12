@@ -90,6 +90,9 @@ def dictionary_examples():
     print(some_dict.keys())
     print(some_dict.values())
 
+    # Dictionary comprehension
+    d = {x: x**2 for x in range(10)}
+
 
 def tuple_examples():
     some_tuple = (1, 2, 3, 'a', 'b', 'c', 'a')
