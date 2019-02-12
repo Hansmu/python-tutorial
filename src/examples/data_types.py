@@ -81,6 +81,12 @@ def lists_examples():
     num_list.sort()
     num_list.reverse()
     print([1] * 3)
+    print('Occurrences in a list', some_list.count(2))
+    some_list.extend([5, 6])
+    print('Extend method adds an entire list to the end of a list, append adds a single element', some_list)
+    print('Index of element, if not present throws an error', some_list.index(1))
+    some_list.insert(1, 'Random')
+    other_list.remove('String')
 
 
 def dictionary_examples():
